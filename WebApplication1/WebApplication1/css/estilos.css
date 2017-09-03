@@ -17,8 +17,8 @@ header{
     height: 99px;
     background: #9ACFFC;
     color: #333;
-    position: fixed
-    left 0;
+    position: fixed 
+        left 0;
     z-index: 100;
 }
 
@@ -39,4 +39,15 @@ section{
     margin-bottom: 25px;
     
     
+}
+.contenedorBotones{
+    margin:auto;
+    text-align:center;
+    margin-top:70px;
+}
+.contenedorBottom{
+    margin:auto;
+    text-align:center;
+    margin-top:60px;
+    margin-bottom:20px;
 }

@@ -10,6 +10,11 @@
           <link rel="stylesheet" href="css/estilos.css">
           <link rel="stylesheet" href="css/menu.css">
           <link rel="stylesheet" href="css/banner.css">
+        <link href="/img/musica.png" rel="shortcut icon" type="image/x-icon" />
+        <title>@ViewBag.Title - Music App</title>
+        
+        <!--@Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")-->
     </head>
     <body>
     
@@ -21,9 +26,9 @@
             <label class="icon-menu" for="menu-bar"></label>
             
             <nav class="menu">
-               <a href="">breve historia</a>
-                <a href="">glosario musical</a>
-                <a href="">escuela musical</a>
+               <a href="">Breve historia de la música</a>  
+                <a href="">Glosario musical</a>
+                <a href="/EscuelaMusicalMenu.html">Escuela musical</a>
                 
             </nav>
         </div>
@@ -39,21 +44,37 @@
                 Andrea Ortiz S
                 Estefi....errote :v
             </p>
-                <a href="a">leer mas sobre estefy </a>
+               
             </div>
         </section>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        <div class="contenedorBottom">
+            <div><a href="/Menú.html"><img src="/img//Button_Next.png" alt="" /></a></div>
+        </div>
+     
         
     </main>
+        <!--<div class="container body-content">
+            @RenderBody()
+            <hr />
+                <footer class="footer">
+                    <div class="text-center-3">
+                        <div class="container ">
+                            <img src="img/iiii.png" alt="">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    Escuela Musical © @Html.Raw(DateTime.Now.Year.ToString(CultureInfo.InvariantCulture))
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>-->
+               
+          
+        <!--</div>  
+        
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("Scripts", required: false)-->
     
     </body>
     </html>
