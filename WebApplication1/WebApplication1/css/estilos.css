@@ -44,6 +44,7 @@ section{
     margin:auto;
     text-align:center;
     margin-top:70px;
+
 }
 .contenedorBottom{
     margin:auto;
@@ -51,3 +52,49 @@ section{
     margin-top:60px;
     margin-bottom:20px;
 }
+
+.sectionHistoria{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+.popup {
+    background-color: #ffffff;
+    color: #888888;
+    height: 245px;
+    left: 100%;
+    padding: 20px;
+    position: fixed;
+    right: 30%;
+    top: 25%;
+    width: 550px;
+    z-index: 101;
+    -moz-box-shadow: 0px 0px 10px 1px #888888;
+    -webkit-box-shadow: 0px 0px 10px 1px #888888;
+    box-shadow: 0px 0px 10px 1px #888888;
+    border-radius:10px;
+    -moz-border-radius:10px;
+}
+ 
+.overlay {
+    background: #000000;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    opacity:0.5;
+}
+ 
+a.close {
+    background: url("cancel.png") repeat scroll left top transparent;
+    cursor: pointer;
+    float: right;
+    height: 26px;
+    left: 32px;
+    position: relative;
+    top: -33px;
+    width: 26px;
+}
+

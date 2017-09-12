@@ -70,6 +70,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="EscuelaMusicalMenu.html" />
+    <Content Include="Glosario.html" />
+    <Content Include="Historia.html" />
     <Content Include="img\Button1Grande.png" />
     <Content Include="img\Button2Grande.png" />
     <Content Include="img\Button3Grande.png" />
@@ -78,6 +80,8 @@
     <Content Include="img\Button_Back.png" />
     <Content Include="img\Button_Next.png" />
     <Content Include="img\Button_Partituras.png" />
+    <Content Include="img\egipcio.png" />
+    <Content Include="img\guitarra.png" />
     <Content Include="img\musica.png" />
     <Content Include="Menú.html" />
     <Content Include="img\Footer.png" />
@@ -121,6 +125,7 @@
     <Content Include="Scripts\script.js" />
     <Content Include="Scripts\wow.min.js" />
     <None Include="Scripts\_references.js" />
+    <Content Include="Sonidos\guitarra_1.mp3" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
